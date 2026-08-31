@@ -9,6 +9,7 @@ spring:
     url: jdbc:mysql://localhost:3306/venue_db
     username: root
     password: sanju
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
